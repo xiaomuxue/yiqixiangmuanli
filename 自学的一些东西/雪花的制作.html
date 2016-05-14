@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>雪花的制作</title>
+<script>
+    var i=0;
+	var minSize=5;
+	var maxSize=50;
+	var newOn=200;     //间隔0.2s产生一个雪花
+	var flakeColor="#fff"   //给雪花的颜色，白色
+	var flake=$("<div></div>").css({"position":"absolute","top":"-50px"}).html("*");    //flake代表雪片
+	$(function(){
+		$(".ig").eq(0).show().siblinges().hide();
+		setInterval(function(){
+			i++;
+			if(i==6){i=0}
+			$(".ig").eq(i).show().siblings().hide();
+			}4000);
+		
+		var documentHight=$(document).height();   // 获取到页面的高度
+		var documentWidth=$(document).width();    //获取到页面的宽度
+		setInterval(function){
+			var startPostionLeft=Math.radom()*documentWidth;
+			var startOpacity=0.6+Math()*0.4;
+			var endPositionTop=documentHight-40;
+			var 
+			}
+		})
+</script>
+</head>
+
+<body>
+</body>
+</html>

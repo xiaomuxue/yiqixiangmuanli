@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Range对象的cloneRange方法的使用示例</title>
+<script>
+    function CloneARange(){
+		var rangeObj=document.createRange();
+		rangeObj.selectNodeContents(document.body);
+		var rangeClone=rangeObj.cloneRange();
+		alert (rangeClone.toString());
+		}
+</script>
+</head>
+
+<body>
+   <button onclick="CloneARange();">克隆Range对象</button>
+</body>
+</html>

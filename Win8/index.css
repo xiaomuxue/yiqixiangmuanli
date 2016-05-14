@@ -1,0 +1,281 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*  清除浏览器的默认样式     */
+*{
+   padding:0;
+   margin:0 auto;
+}
+body{
+	width:2400px;
+	background:url(images/bg.jpg) no-repeat;
+	background-size:cover;
+}
+header,footer{
+	width:100%;
+	height:40px;
+	background:#666;
+	color:#fff;
+	text-align:center;
+	line-height:40px;
+	letter-spacing:5px;
+	font-size:20px;
+	opacity:0.8;
+	position:fixed;
+	z-index:999;
+}
+header{
+   left:0px;
+   top:0px; 
+}
+footer{
+   left:0px;
+   bottom:0px;
+}
+footer span{
+	background:url(images/tree1.png) no-repeat left center;
+	padding-left:28px;
+}
+article{
+	margin-top:80px;
+	width:95%;
+	height:640px;
+	/* animation:第一个取值指动画的名称，第二个值指完成整个动画的时间，第三个取值指动画播放的形式：例：动画以同一速度运行或者由快到慢或者由慢到快等，
+	第四个指延迟播放动画的时间，第五个值指动画的循环次数，第六个值指是否反向运动，还可以有个取值动画的状态 */
+	animation:start 4s linear 2s 1 normal;
+	-webkit-animation:start 4s linear 2s 1 normal;
+	-moz-animation:start 4s linear 2s 1 normal;
+	-ms-animation:start 4s linear 2s 1 normal;
+	-o-animation:start 4s linear 2s 1 normal;
+}
+
+@keyframes start{
+    0%{
+	    transform:translateX(400px);
+		opacity:0;	
+  }	
+  50%{
+      transform:translateX(800px);
+	  opacity:0.5;
+	  transform:rotate(30deg);
+  }
+  100%{
+	  transform:translateX(0);
+	  opacity:1;
+	  }
+}
+-webkit-@keyframes start{
+    0%{
+	    -webkit-transform:translateX(400px);
+		opacity:0;	
+  }	
+  50%{
+      -webkit-transform:translateX(800px);
+	  opacity:0.5;
+	  transform:rotate(30deg);
+  }
+  100%{
+	   -webkit-transform:translateX(0);
+	  opacity:1;
+	  }
+}
+-moz-@keyframes start{
+    0%{
+	     -moz-transform:translateX(400px);
+		opacity:0;	
+  }	
+  50%{
+       -moz-transform:translateX(800px);
+	  opacity:0.5;
+	  -moz-transform:rotate(30deg);
+  }
+  100%{
+	   -moz-transform:translateX(0);
+	  opacity:1;
+	  }
+}
+-ms-@keyframes start{
+    0%{
+	    -ms-transform:translateX(400px);
+		opacity:0;	
+  }	
+  50%{
+      -ms-transform:translateX(800px);
+	  opacity:0.5;
+	  -ms-transform:rotate(30deg);
+  }
+  100%{
+	  -ms-transform:translateX(0);
+	  opacity:1;
+	  }
+}
+
+.coli{
+	width:400px;
+	height:100%;
+	float:left;
+}
+ul{
+	width:100%;
+	height:100%;
+}
+ul li{
+	list-style:none;
+	float:left;
+	overflow:hidden;
+	position:relative;      /*   隐藏多余的部分    */
+}
+.li1{
+    width:100%;
+	height:24%;
+	margin-bottom:2%;	
+}
+.li2{
+    width:49%;
+	height:24%;
+	margin-bottom:2%;	
+}
+.li3{
+    width:49%;
+	height:24%;
+	margin-left:2%;
+	margin-bottom:2%;	
+}
+.li4{
+    width:49%;
+	height:24%;
+	margin-bottom:2%;	
+}
+.li5{
+    width:49%;
+	height:24%;
+	margin-left:2%;
+	margin-bottom:2%;	
+}
+.li6{
+    width:100%;
+	height:24%;	
+}
+article ul li div{
+	width:100%;
+	height:100%;
+	font-size:20px;
+	color:#fff;
+	line-height:153px;
+	text-align:center;
+	position:absolute;
+	
+	transition:all 0.3s ease-in;    /*  第一个取值指完成所有的动画，第二个指完成所有动画所需要的时间，完成动画的类型    */
+	-webkit-transition:all 0.3s ease-in;
+	-moz-transition:all 0.3s ease-in;
+	-ms-transition:all 0.3s ease-in;
+	-o-transition:all 0.3s ease-in;
+}
+.li1 div:first-child{
+	background:url(images/blue.jpg) no-repeat;
+	background-size:cover;
+}
+.li1 div:last-child{
+	background:url(images/summer.jpg) no-repeat;
+	background-size:cover;
+	top:100%;
+	}
+.li1:hover div{
+	transform:translateY(-100%);
+	-webkit-transform:translateY(-100%);
+	-moz-transform:translateY(-100%);
+	-ms-transform:translateY(-100%);
+	-o-transform:translateY(-100%);
+	}
+	
+.li2 div:first-child{
+	background:url(images/summer.jpg) no-repeat;
+	background-size:cover;
+}
+.li2 div:last-child{
+	background:url(images/blue.jpg) no-repeat;
+	background-size:cover;
+	right:100%;
+	}
+.li2:hover div{
+	transform:translateX(100%);
+	-webkit-transform:translateX(100%);
+	-moz-transform:translateX(100%);
+	-ms-transform:translateX(100%);
+	-o-transform:translateX(100%);
+	}
+	
+	
+.li3 div:first-child{
+	background:url(images/summer.jpg) no-repeat;
+	background-size:cover;
+}
+.li3 div:last-child{
+	background:url(images/blue.jpg) no-repeat;
+	background-size:cover;
+	left:100%;
+	}
+.li3:hover div{
+	transform:translateX(-100%);
+	-webkit-transform:translateX(-100%);
+	-moz-transform:translateX(-100%);
+	-ms-transform:translateX(-100%);
+	-o-transform:translateX(-100%);
+	}
+	
+.li4 div:first-child{
+	background:url(images/blue.jpg) no-repeat;
+	background-size:cover;
+}
+.li4 div:last-child{
+	background:url(images/summer.jpg) no-repeat;
+	background-size:cover;
+	left:100%;
+	}
+.li4:hover div{
+	transform:translateX(-100%);
+	-webkit-transform:translateX(-100%);
+	-moz-transform:translateX(-100%);
+	-ms-transform:translateX(-100%);
+	-o-transform:translateX(-100%);
+	}
+	
+	
+.li5 div:first-child{
+	background:url(images/blue.jpg) no-repeat;
+	background-size:cover;
+}
+.li5 div:last-child{
+	background:url(images/summer.jpg) no-repeat;
+	background-size:cover;
+	right:100%;
+	}
+.li5:hover div{
+	transform:translateX(100%);
+	-webkit-transform:translateX(100%);
+	-moz-transform:translateX(100%);
+	-ms-transform:translateX(100%);
+	-o-transform:translateX(100%);
+	}
+	
+	
+.li6 div:first-child{
+	background:url(images/summer.jpg) no-repeat;
+	background-size:cover;
+}
+.li6 div:last-child{
+	background:url(images/blue.jpg) no-repeat;
+	background-size:cover;
+	bottom:100%;
+	}
+/*.li6:hover div{
+	transform:translateY(100%);
+	-webkit-transform:translateY(100%);
+	-moz-transform:translateY(100%);
+	-ms-transform:translateY(100%);
+	-o-transform:translateY(100%);
+	}
+*/
+article ul li.li6 div.span:hover{
+	transform:translateX(100%);
+}

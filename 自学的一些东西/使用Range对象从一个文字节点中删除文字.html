@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>使用Range对象从一个元素中的文字节点中删除文字</title>
+<script>
+    function DeleteChar(){
+		var div=document.getElementById("myDiv");
+		var textNode=div.firstChild;
+		var rangeObj=document.createRange();
+		rangeObj.setStart(textNode,2);
+		rangeObj.setEnd(textNode,10);
+		rangeObj.deleteContents();
+		}
+</script>
+</head>
+
+<body>
+  <div id="myDiv" style="color:red">这段文字中第三个文字到第十个文字将被删除</div>
+  <button onclick="DeleteChar()">删除文字</button>
+</body>
+</html>

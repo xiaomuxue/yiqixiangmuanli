@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+		padding:0px;
+		margin:0px auto;
+		}
+	.box{
+		width:100%;
+	}
+	.header{
+		width:100%;
+		height:192px;
+		}
+	.left{
+		width:27%;
+		height:670px;
+		float:left;
+		}
+	.left_top{
+		width:100%;
+		height:493px;
+		background:url(images/1.jpg) no-repeat;
+		}
+	.left_bottom{
+		width:100%;
+		height:163px;
+		margin-top:8px;
+		}
+	.left .img11{
+		height:163px;
+		width:100%;
+		border:1px solid #CCC;
+		}
+	.float_top{
+		width:330px;
+		height:88px;
+		position:absolute;
+		left:65px;
+		top:430px;
+		background-color:#fff;
+		opacity:0.3;
+		}
+	.float_a{
+		width:329px;
+		height:20px;
+		position:absolute;
+		left:67px;
+		top:172px;
+		background-color:#caebfc;
+		
+		}
+	.float_c{
+		width:330px;
+		height:88px;
+		position:absolute;
+		left:65px;
+		top:430px;
+		}
+	.float_c a{
+		display:block;
+		position:absolute;
+		width:100px;
+		height:26px;
+		background:url(images/clothesicon.png) no-repeat;
+		}
+		
+	.float_c .icon1{left:20px;top:10px;background-position:0px 0px;}
+	.float_c .icon2{left:120px;top:10px;background-position:0px -26px;}
+	.float_c .icon3{left:220px;top:10px;background-position:0px -52px;}
+	.float_c .icon4{left:20px;top:55px;background-position:0px -78px;}
+	.float_c .icon5{left:120px;top:55px;background-position:0px -104px;}
+	.float_c .icon6{left:220px;top:55px;background-position:0px -130px;}
+	
+	.float_c a{
+		text-decoration:none;
+		}
+	.float_c a span{
+		font-size:14px;
+		color:#666;
+		margin-left:32px;
+		}
+	.float_c a span:hover{
+		color:red;
+		}
+	.float_bottom{
+		width:330px;
+		height:176px;
+		position:absolute;
+		left:65px;
+		top:516px;
+		background-color:#F0FFFF;
+		}
+	.float_bottom p a{
+		text-decoration:none;
+		color:#666;
+		font-size:12px;
+		}
+	.float_bottom p a:hover{
+		color:red;
+		}
+	.float_bottom p{
+		width:330px;
+		height:41px;
+		line-height:41px;
+		}
+	.float_bottom p a span.ggirl{
+		margin-left:34px;
+		
+		}
+	.float_bottom p a span.ggirl3{
+		margin-left:34px;
+		color:#C00;
+		}
+	.float_bottom p a span.ggirl1{
+		margin-left:60px;
+		text-align:left;
+		
+		}
+	.float_bottom p a span.ggirl2{
+		color:#C00;
+		
+		}
+	.right{
+		width:73%;
+		height:670px;
+		float:left;
+		}
+	.leftright {
+		width:90%;
+		}
+	.logoo{
+		width:90%;
+		height:90px;
+		clear:both;
+		}
+	.logoo  a img{
+		float:left;
+		margin-top:20px;
+		margin-left:18px;
+		border-right:1px solid #ccc;
+		}
+	.logoo a .a1{
+		margin-left:0px;
+		}
+	.footer{
+		height:150px;
+	}
+		

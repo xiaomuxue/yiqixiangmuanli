@@ -1,0 +1,390 @@
+<!doctype html>
+           <html>
+                 <head>
+                        <meta charset="utf-8">
+                        <title>我的购物车-京东商城</title>
+                        <link type="text/xml" title="XML" rel="alternate" href="img/a.jpg">
+                        <link type="application/rss+xml" title="RSS" rel="alternate" href="img/a.jpg">
+                        <link rel="shortcut icon" href="img/a.jpg">
+                        <link href="Start.css" rel="stylesheet"/>
+                        <style>
+                               .content{height:1080px;margin:auto;}
+							   #sousuo1 a img{margin-top:60px;}
+							   #sousuo1 h2{margin-left:400px;margin-top:-76px;font-weight:normal;
+							        font-size:21px;color:#666;letter-spacing:1px;text-decoration:none;}
+							   #sousuo1 input{height:24px;border:2px solid #D90000;margin-left:760px;
+							        position:relative;left:110px;top:-30px;}
+							   #sousuo1 a{position:relative;left:104px;top:-32px;}
+							   #sousuo1 a span{display:inline-block;text-decoration:none;
+							       width:50px;height:28px;background:#D20000;font-size:15px;
+								   text-align:center;line-height:23px;color:#fff;}
+								   
+							   .content-content1{height:350px;}
+							   .content-content1-left{width:50%;margin-left:0px;}
+							   .content-content1-left img{margin-top:100px;position:relative;margin-left:580px;        /*vertical-align:center; 图片定位*/}
+							   .content-content1-right{float:right;width:50%;margin-top:-50px;}
+							   .content-content1-right span{padding-top:-100px;}
+							   .content-content1-right p a{text-decoration:none;color:#06F;font-size:14px;}
+							   .content-content1-right p a:hover{color:#D90000;}
+							   
+							   .content-content2{height:300px;width:980px;position:relative;}
+							   .content-content2 ul li{list-style:none;float:left;}
+							   .content-content2 .one{position:relative;display:block;border:1px solid #DFDFDF;border-bottom:1px solid #fff;                               text-align:center;margin-left:7px;}
+							   .content-content2 ul li a{text-decoration:none;color:#333;font-size:14px;
+							     margin-right:20px;margin-left:18px;}
+							   .content-content2 ul li a:hover{color:#AE0000;}
+							  /* .content-content2 ul li:hover table{display:block;z-index:20;position:absolute;}*/
+							  
+							  
+							 .content-content2 table{position:absolute;border:1px solid #DFDFDF;margin-left:-1px;display:block;}
+							   .content-content2 table tr td a{text-decoration:none;}
+							   .content-content2 table tr td a p{font-size:13px;color:#333;line-height:20px;}
+							   .content-content2 table tr td a p:hover{color:#AE0000;/*transform:scale(2.0);*/}
+							   .content-content2 table tr td a span{font-size:13px;color:#333;border:1px solid #DEDEDE;
+							      border-radius:4px;margin-top:8px;background:#F0F0F0;
+							    display:inline-block;width:70px;height:21px;line-height:22px;padding-left:8px;}
+							   .content-content2 table tr td b{color:#626262;font-size:14px;}
+							   
+							   
+							  .content-content2 ul li.two{position:relative;width:94px;height:21px;border:1px solid #DEDEDE;border-bottom:1px solid #fff;margin-left:30px;display:block;cursor:pointer;}
+							  .content-content2 ul li.two .tiaodong1-1{border:1px solid #DFDFDF;width:980px;height:270px;margin-left:-126px;display:none;position:absolute;}
+							 
+							   .tiaodong1-1 p{font-size:13px;line-height:120px;text-align:center;opacity:0.6;margin-top:82px;}
+							   
+							   /*.tiaodong3 a{position:absolute;left:220px;top:-20px;}*/
+							   .content-content2 ul li.three{position:relative;width:94px;height:22px;border:1px solid #DFDFDF;border-bottom:1px solid #fff;margin-left:30px;display:block;}
+							   .tiaodong1-2{width:980px;height:270px;border:1px solid #DFDFDF;margin-left:-252px;display:none;position:absolute;}
+							 
+							   .tiaodong1-2 p{font-size:13px;line-height:300px;height:300px;text-align:center;opacity:0.6;}
+							   
+							   
+							   
+							   .content-content3{height:100px;background:#F5F5F5;margin-top:10px;}
+							   .content-content3 img{margin-top:24px;margin-left:25px;position:relative;left:160px;}
+							   
+							   
+							   .content-footer table{margin-top:20px;}
+							   .content-footer table tr th a{text-decoration:none;color:#999;font-size:17px;font-weight:normal;}
+							   .content-footer table tr td{line-height:20px;}
+							   .content-footer table tr td a:hover{color:#D90000;}
+							   .content-footer table tr td a{text-decoration:none;color:#333;font-size:14px;
+							     opacity:0.8;font-weight:normal;margin-left:70px;}
+								 
+								 .footer1{height:60px;margin-top:15px;}
+								 .footer1 a{margin-left:15px;position:relative;left:240px;}								
+                        </style>
+                 </head>
+
+                 <body>
+                       <div id="logo">
+                            <p onMouseOver="add()" id="s1">送至：北京</p>
+                            <img src="img/bb.png"/>                              
+                           <div class="xiaLa" id="xL" onMouseOut="add1()" onMouseOver="add()">
+                              <ul>
+                                    <li><a href="http://www.baidu.com">北京</a></li>
+                                    <li><a href="http://www.baidu.com">山西</a></li>
+                                    <li><a href="http://www.baidu.com">内蒙古</a></li>
+                                    <li><a href="http://www.baidu.com">福建</a></li>
+                                    <li><a href="http://www.baidu.com">江西</a></li>
+                                    <li><a href="http://www.baidu.com">西藏</a></li>
+                                    <li><a href="http://www.baidu.com">新疆</a></li>
+                                    <li><a href="http://www.baidu.com">海外</a></li>
+                                    
+                                    <li><a href="http://www.baidu.com">河北</a></li>
+                                    <li><a href="http://www.baidu.com">河南</a></li>
+                                    <li><a href="http://www.baidu.com">江苏</a></li>
+                                    <li><a href="http://www.baidu.com">湖北</a></li>
+                                    <li><a href="http://www.baidu.com">四川</a></li>
+                                    <li><a href="http://www.baidu.com">陕西</a></li>
+                                    <li><a href="http://www.baidu.com">台湾</a></li>
+                                    
+                                    <li><a href="http://www.baidu.com">天津</a></li>
+                                    <li><a href="http://www.baidu.com">辽宁</a></li>
+                                    <li><a href="http://www.baidu.com">山东</a></li>
+                                    <li><a href="http://www.baidu.com">湖南</a></li>
+                                    <li><a href="http://www.baidu.com">海南</a></li>
+                                    <li><a href="http://www.baidu.com">甘肃</a></li>
+                                    <li><a href="http://www.baidu.com">香港</a></li>
+                                    
+                                    <li><a href="http://www.baidu.com">重庆</a></li>
+                                    <li><a href="http://www.baidu.com">吉林</a></li>
+                                    <li><a href="http://www.baidu.com">安徽</a></li>
+                                    <li><a href="http://www.baidu.com">广东</a></li>
+                                    <li><a href="http://www.baidu.com">贵州</a></li>
+                                    <li><a href="http://www.baidu.com">青海</a></li>
+                                    <li><a href="http://www.baidu.com">澳门</a></li>
+                                    
+                                    <li><a href="http://www.baidu.com">河北</a></li>
+                                    <li><a href="http://www.baidu.com">黑龙江</a></li>
+                                    <li><a href="http://www.baidu.com">浙江</a></li>
+                                    <li><a href="http://www.baidu.com">广西</a></li>
+                                    <li><a href="http://www.baidu.com">云南</a></li>
+                                    <li><a href="http://www.baidu.com">宁夏</a></li>                                   
+                              </ul>
+                              </div>
+                              <!--  E  -->
+                              
+                              <div class="s2">                                   
+                                     <ul>                                           
+                                            <li><a href="denglu.html">你好！请登录</a>
+                                            <a href="zc.html"><span>免费注册</span></a></li>
+                                            <li><a href="http://www.baidu.com"><span>我的订单</span></a></li>
+                                            <li><a href="http://www.baidu.com"><span>我的京东</span></a></li>
+                                            <li><a href="http://www.baidu.com"><span>京东会员</span></a></li>
+                                            <li><a href="http://www.baidu.com"><span>企业采购</span></a></li>
+                                            <li><a href="shouji.html"><span>手机京东</span></a></li>
+                                            <li><a href="http://www.baidu.com"><span>关注京东</span></a></li>
+                                            <li><a href="http://www.baidu.com"><span>客户服务</span></a></li>
+                                            <li><a href="http://www.baidu.com"><span>网站导航</span></a></li>
+                                      </ul>
+                              </div>
+                      </div>
+                      <div class="content">
+                            <div id="sousuo1">
+                               <a href="index.html"><img src="img/b.png" alt="图片加载不出来"/></a>
+                                <h2>购物车</h2>
+                                <input type="text" name="uname" maxlength="40px" size="40px" placeholder="自营"/>
+                                <a href="http://www.baidu.com"><span>搜索</span></a>
+                            </div>
+                            <div class="content-content1">
+                                  <div class="content-content1-left">
+                                          <img src="img/yy.png"/>
+                                  </div>
+                                  <div class="content-content1-right">
+                                        <span>购物车空空的哦~，去看看心仪的商品吧~ </span>
+                                        <p><a href="index.html">去购物&gt;</a></p>
+                                  </div>
+                            </div>
+                            <div class="content-content2">
+                                   <ul>
+                                        <li class="one"><a href="http://www.baidu.com" onMouseOver="a()">猜你喜欢</a>                                           
+                                              <table width="982px" height="270px"  id="shopping1" >
+                                                      <tr>
+                                                           <td>
+                                                                 <a href="http://www.baidu.com"><img src="img/170.jpg"/></a><br/>
+                                                                 <a href="http://www.baidu.com">
+                                                                 <p>泰国进口小胖子&nbsp;(TCBOY)白肉金枪鱼（特级）</p></a>
+                                                                 <b>&yen;33.90</b><br/><a href="http://www.baidu.com">
+                                                                 <span>加入购物车</span></a>
+                                                           </td>
+                                                           <td>
+                                                                 <a href="http://www.baidu.com"><img src="img/171.jpg"/></a><br/>
+                                                                 <a href="http://www.baidu.com">
+                                                                 <p>睡猫大号薰衣草暖贴暖宝宝暖贴暖身贴发热贴保暖贴宫</p></a>
+                                                                 <b>&yen;9.90</b><br/><a href="http://www.baidu.com">
+                                                                 <span>加入购物车</span></a>
+                                                           </td>
+                                                           <td>
+                                                                 <a href="http://www.baidu.com"><img src="img/172.jpg"/></a><br/>
+                                                                 <a href="http://www.baidu.com">
+                                                                 <p>蜜语(Missoue)澳洲进口婴儿二合一洗发沐浴露</p></a>
+                                                                 <b>&yen;45.00</b><br/><a href="http://www.baidu.com">
+                                                                 <span>加入购物车</span></a>
+                                                           </td>
+                                                           <td>
+                                                                 <a href="http://www.baidu.com"><img src="img/173.jpg"/></a><br/>
+                                                                 <a href="http://www.baidu.com">
+                                                                 <p>Kiehl's科颜氏明星系列 金盏花洗面奶230ml</p></a>
+                                                                 <b>&yen;226.00</b><br/><a href="http://www.baidu.com">
+                                                                 <span>加入购物车</span></a>
+                                                           </td>
+                                                           <td>
+                                                                 <a href="http://www.baidu.com"><img src="img/174.jpg"/></a><br/>
+                                                                 <a href="http://www.baidu.com">
+                                                                 <p>古德装订机用PVC塑料热熔封套6mm 装订36-50张纸 </p></a>
+                                                                 <b>&yen;1.10</b><br/><a href="http://www.baidu.com">
+                                                                 <span>加入购物车</span></a>
+                                                           </td>
+                                                      </tr>
+                                              </table>
+                                           <!--   <div class="tingliu">
+                                                       <table width="982px" height="270px">
+                                                      <tr>
+                                                           <td>
+                                                                 <a href="http://www.baidu.com"><img src="img/170.jpg"/></a><br/>
+                                                                 <a href="http://www.baidu.com">
+                                                                 <p>泰国进口小胖子&nbsp;(TCBOY)白肉金枪鱼（特级）</p></a>
+                                                                 <b>&yen;33.90</b><br/><a href="http://www.baidu.com">
+                                                                 <span>加入购物车</span></a>
+                                                           </td>
+                                                           <td>
+                                                                 <a href="http://www.baidu.com"><img src="img/171.jpg"/></a><br/>
+                                                                 <a href="http://www.baidu.com">
+                                                                 <p>睡猫大号薰衣草暖贴暖宝宝暖贴暖身贴发热贴保暖贴宫</p></a>
+                                                                 <b>&yen;9.90</b><br/><a href="http://www.baidu.com">
+                                                                 <span>加入购物车</span></a>
+                                                           </td>
+                                                           <td>
+                                                                 <a href="http://www.baidu.com"><img src="img/172.jpg"/></a><br/>
+                                                                 <a href="http://www.baidu.com">
+                                                                 <p>蜜语(Missoue)澳洲进口婴儿二合一洗发沐浴露</p></a>
+                                                                 <b>&yen;45.00</b><br/><a href="http://www.baidu.com">
+                                                                 <span>加入购物车</span></a>
+                                                           </td>
+                                                           <td>
+                                                                 <a href="http://www.baidu.com"><img src="img/173.jpg"/></a><br/>
+                                                                 <a href="http://www.baidu.com">
+                                                                 <p>Kiehl's科颜氏明星系列 金盏花洗面奶230ml</p></a>
+                                                                 <b>&yen;226.00</b><br/><a href="http://www.baidu.com">
+                                                                 <span>加入购物车</span></a>
+                                                           </td>
+                                                           <td>
+                                                                 <a href="http://www.baidu.com"><img src="img/174.jpg"/></a><br/>
+                                                                 <a href="http://www.baidu.com">
+                                                                 <p>古德装订机用PVC塑料热熔封套6mm 装订36-50张纸 </p></a>
+                                                                 <b>&yen;1.10</b><br/><a href="http://www.baidu.com">
+                                                                 <span>加入购物车</span></a>
+                                                           </td>
+                                                      </tr>
+                                              </table>
+                                              </div>-->
+                                        </li>
+                                        <li class="two">
+                                              <a href="http://www.baidu.com"  onMouseOver="a1()">我的关注</a>
+                                                  <div class="tiaodong1-1" id="shopping2"><p>暂时无结果</p></div>
+                                        </li>
+                                        <li class="three">
+                                           <a href="http://www.baidu.com"  onMouseOver="a2()">我的足迹</a>
+                                                 <div class="tiaodong1-2" id="shopping3"><p>暂时无结果</p></div>
+                                        </li>
+                                   </ul>
+                            </div>
+                            <div class="content-content3">
+                              <!--   <b>多</b> 
+                                 <h3>品类齐全&nbsp;&nbsp;&nbsp;&nbsp;轻松购物</h3> 
+                                 <b>快</b> 
+                                 <h3>多仓急发&nbsp;&nbsp;&nbsp;&nbsp;急速配送</h3>
+                                  <b>好</b> 
+                                 <h3>正品行货&nbsp;&nbsp;&nbsp;&nbsp;精致服务</h3> 
+                                  <b>省</b> 
+                                 <h3>天天低价&nbsp;&nbsp;&nbsp;&nbsp;畅选无忧</h3>  -->
+                                 <img src="img/ee.png"/>
+                                 <img src="img/ff.png"/>
+                                 <img src="img/gg.png"/>
+                                 <img src="img/hh.png"/>
+                            </div>
+                            <div class="content-footer">
+                                 <table width="1000px">
+                                        <tr>
+                                             <th><a href="http://www.baidu.com">购物指南</a></th>
+                                             <th><a href="http://www.baidu.com">配送方式</a></th>
+                                             <th><a href="http://www.baidu.com">支付方式</a></th>
+                                             <th><a href="http://www.baidu.com">售后服务</a></th>
+                                             <th><a href="http://www.baidu.com">特色服务</a></th>
+                                        </tr>
+                                        <tr>
+                                              <td><a href="http://www.baidu.com">购物流程</a></td>
+                                              <td><a href="http://www.baidu.com">上门自提</a></td>
+                                              <td><a href="http://www.baidu.com">货到付款</a></td>
+                                              <td><a href="http://www.baidu.com">售后政策</a></td>
+                                              <td><a href="http://www.baidu.com">夺宝岛</a></td>
+                                        </tr>
+                                         <tr>
+                                              <td><a href="http://www.baidu.com">会员介绍</a></td>
+                                              <td><a href="http://www.baidu.com">211限时达</a></td>
+                                              <td><a href="http://www.baidu.com">在线支付</a></td>
+                                              <td><a href="http://www.baidu.com">价格保护</a></td>
+                                              <td><a href="http://www.baidu.com">DIY装机</a></td>
+                                        </tr>
+                                         <tr>
+                                              <td><a href="http://www.baidu.com">生活旅行团购</a></td>
+                                              <td><a href="http://www.baidu.com">配送服务查询</a></td>
+                                              <td><a href="http://www.baidu.com">分期付款</a></td>
+                                              <td><a href="http://www.baidu.com">退款说明</a></td>
+                                              <td><a href="http://www.baidu.com">延保服务</a></td>
+                                        </tr>
+                                         <tr>
+                                              <td><a href="http://www.baidu.com">常见问题</a></td>
+                                              <td><a href="http://www.baidu.com">配送费收取标准</a></td>
+                                              <td><a href="http://www.baidu.com">邮局汇款</a></td>
+                                              <td><a href="http://www.baidu.com">返修/退换货</a></td>
+                                              <td><a href="http://www.baidu.com">京东E卡</a></td>
+                                        </tr>
+                                         <tr>
+                                              <td><a href="http://www.baidu.com">大家电</a></td>
+                                              <td><a href="http://www.baidu.com">海外配送</a></td>
+                                              <td><a href="http://www.baidu.com">公司转账</a></td>
+                                              <td><a href="http://www.baidu.com">取消订单</a></td>
+                                              <td><a href="http://www.baidu.com">京东通信</a></td>
+                                        </tr>
+                                         <tr>
+                                              <td><a href="http://www.baidu.com">联系客服</a></td>
+                                              <td></td>
+                                              <td></td>
+                                              <td><a href="http://www.baidu.com">京东JD+</a></td>
+                                        </tr>
+                                 </table>
+                            </div>
+                      </div>
+                      
+                      
+                        <div class="footer">
+                            <ul>
+                                 <li><a href="http://www.baidu.com"><span>关于我们</span></a></li>
+                                 <li><a href="http://www.baidu.com"><span>联系我们</span></a></li>
+                                 <li><a href="http://www.baidu.com"><span>商家入驻</span></a></li>
+                                 <li><a href="http://www.baidu.com"><span>营销中心</span></a></li>
+                                 <li><a href="http://www.baidu.com"><span>手机京东</span></a></li>
+                                 <li><a href="http://www.baidu.com"><span>友情链接</span></a></li>
+                                 <li><a href="http://www.baidu.com"><span>销售联盟</span></a></li>
+                                 <li><a href="http://www.baidu.com"><span>京东社区</span></a></li>
+                                 <li><a href="http://www.baidu.com"><span>京东公益</span></a></li>
+                                 <li><a href="http://www.baidu.com"><span>English Site</span></a></li>
+                                 <li><a href="http://www.baidu.com">Contact Us</a></li>
+                            </ul><br/>
+                            <span><a href="http://www.baidu.com">音像制品经营许可证苏宿批005号</a></span>
+                            <span>出版物经营许可证编号新出发(苏)批字第N-012号</span>
+                            <small>互联网出版许可证编号新出网证(京)字150号</small><br/>                            
+                            <p><a href="http://www.baidu.com">网络文化经营许可证京网文[2014]2148-348号 </a>&nbsp;
+                           违法和不良信息举报电话：4006561155 &nbsp;Copyright&copy;[2004-2016]&nbsp;&nbsp;京东JD.com 版权所有</p>
+                                  <b>京东旗下网站：<a href="http://www.baidu.com">京东钱包</a></b><br/>
+                             <div class="footer1">
+                                 <a href="http://www.baidu.com"><img src="img/be.png"/></a>
+                                 <a href="http://www.baidu.com"><img src="img/bf.png"/></a>
+                                 <a href="http://www.baidu.com"><img src="img/ba.jpg"/></a>
+                                 <a href="http://www.baidu.com"><img src="img/bc.png"/></a>
+                                 <a href="http://www.baidu.com"><img src="img/bf.jpg"/></a>
+                                 <a href="http://www.baidu.com"><img src="img/df.jpg"/></a>
+                            </div>
+                      </div>
+                      
+                       <script>
+					         function  add(){
+								document.getElementById("xL").style.display="block";	
+								document.getElementById("s1").style.background="#FFF";	
+																			
+							 }
+							 function add1(){
+								 document.getElementById("xL").style.display="none";
+								 document.getElementById("s1").style.background="#EEE";	
+							 }
+							 function  a(){
+								
+								 
+										document.getElementById("shopping1").style.display="block";
+										document.getElementById("shopping2").style.display="nono";
+									 	document.getElementById("shopping3").style.display="none";
+									 
+									 
+							 }
+							 function  a1(){
+								
+								 
+										document.getElementById("shopping1").style.display="none";
+										document.getElementById("shopping2").style.display="block";
+									 	document.getElementById("shopping3").style.display="none";
+									 
+							 }
+							 function  a2(){
+								
+								 
+										document.getElementById("shopping1").style.display="none";
+										document.getElementById("shopping2").style.display="none";
+									 	document.getElementById("shopping3").style.display="block";
+									 
+
+
+							 }
+					    </script>
+                 </body>
+          </html>

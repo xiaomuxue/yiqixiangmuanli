@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+.right{
+		width:73%;
+		height:650px;
+		float:left;
+		}
+	.right a{
+		display:block;
+		font-size:14px;
+		text-decoration:none;
+		}
+	.right table tr td a:hover{color:#D90000;}
+	.A1{
+		width:25%;
+		height:40%;
+		text-align:center;
+		padding-top:12px;
+		padding-bottom:12px;
+		}
+	.A2{
+		width:25%;
+		height:40%;
+		text-align:center;
+		padding-top:12px;
+		padding-bottom:12px;	
+		}
+	.A3{
+		width:25%;
+		height:40%;
+		text-align:center;
+		padding-top:12px;
+		padding-bottom:12px;
+	}
+	.A4{
+		width:25%;
+		height:40%;
+		text-align:center;
+		padding-top:12px;
+		padding-bottom:12px;
+		}
+	.A5{
+		width:25%;
+		height:40%;
+		text-align:center;
+		padding-top:12px;
+		padding-bottom:12px;
+		}
+	.A6{
+		width:25%;
+		height:40%;
+		text-align:center;
+		padding-top:12px;
+		padding-bottom:12px;
+		}
+	.A7{
+		width:25%;
+		height:40%;
+		text-align:center;
+		padding-top:12px;
+		padding-bottom:12px;
+	}
+	.A8{
+		width:25%;
+		height:40%;
+		text-align:center;
+		padding-top:12px;
+		padding-bottom:12px;
+		}
+	.A9{
+		width:25%;
+		opacity:0.8;
+		}
+	.A10{
+		width:25%;
+		opacity:0.8;
+		}
+	.A11{
+		width:25%;
+		opacity:0.8;
+		}
+	.A12{
+		width:25%;
+		opacity:0.8;
+		}
+	.A9 a{
+		height:156px;
+		}
+	.A10 a{
+		height:156px;
+		}
+	.A11 a{
+		height:156px;
+		}
+	.A12 a{
+		height:162px;
+		}

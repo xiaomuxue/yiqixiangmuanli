@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HTML编辑API下的Selection对象与Range对象使用事例</title>
+    <script>
+      function rangeTest(){
+		   var html,
+		   showRangeDiv=document.getElementById("showRange"),
+		   selection=document.getSelection();
+		   if(selection.rangeCount>0)
+		   {
+			   html="您选取了"+selection.rangeCount+"段内容<br/>";
+			   for(var i=0;i<selection.rangeCount;i++)
+			   {
+				   var range=selection.getRangeAt(i);
+				   html+="第"+(i+1)+"段的内容为："+range+"<br/>";
+				   }
+				   showRangeDiv.innerHTML=html;
+			   }
+		  }           //要在Firefox浏览器中打开，当你选中一部分内容时，用鼠标加Ctrl键选取一些内容后，你可在底下看到你所选中的内容//
+    </script>       
+  </head>
+
+  <body>
+    Selection对象与Range对象使用事例
+    <input type="button" value="点击我" onclick="rangeTest()"/>
+    <div id="showRange"></div>
+  </body>
+</html>

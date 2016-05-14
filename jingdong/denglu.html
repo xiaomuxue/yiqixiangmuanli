@@ -1,0 +1,404 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!--  S  添加网页标题的小图标  -->
+                      <link type="text/xml" title="XML" rel="alternate" href="img/a.jpg">
+                      <link type="application/rss+xml" title="RSS" rel="alternate" href="img/a.jpg">
+                      <link rel="shortcut icon" href="img/a.jpg">
+<title>京东-欢迎登录</title>
+    <style type="text/css">
+        *{
+			padding:0;
+			margin:0 auto;
+			}
+		.header{
+			width:100%;
+			height:78px;
+			}
+		.header img{
+			float:left;
+			margin-left:180px;
+			margin-top:7px;
+			clear:both;
+			}
+		.header p{
+			display:inline-block;
+			font-size:24px;
+			font-family:"微雅软黑";
+			margin-left:21px;
+			margin-top:21px;
+			opacity:0.7;
+			}
+			
+			
+		.content{
+			width:100%;
+			height:480px;
+			background:#E9AD38 url(imgs/a1.png) no-repeat center;
+			}
+		.content .box{
+			width:990px;
+			height:480px;
+			}
+		.content .form{
+			width:330px;
+			height:350px;
+			float:right;
+			background-color:#fff;
+			padding:20px;
+			margin-top:50px;
+			}
+		.content ul li{
+			list-style:none;
+			}
+		.content a{
+			text-decoration:none;
+			color:#666;
+			}
+		.form .start{
+			display:inline-flex;
+			width:100%;
+			height:22px;
+			clear:both;
+			}
+		.form .start p{
+			display:block;
+			width:100px;
+			margin:0;
+			font-size:20px;
+			
+			}
+		.form .start a{
+			display:block;
+			float:right;
+			color:red;
+			font-size:14px;
+			text-align:center;
+			height:22px;
+			line-height:22px;
+			margin-left:150px;
+			}
+		.form .start a .logo{
+			float:right;
+			height:22px;
+			width:85px;
+			
+			}
+		.form .start a .logo:hover{
+			text-decoration:underline;
+			}
+		.form .start a .logo .logo_left{
+			height:22px;
+			width:22px;
+			float:left;
+			background-image:url(imgs/a2.png);
+			position:relative;
+			background-position:-100px -70px;
+			}
+		.form .care{
+			display:inline-flex;
+			width:100%;
+			height:24px;
+			float:left;
+			margin-top:8px;
+			margin-bottom:8px;
+			border:1px solid #FFE57D;
+			background-color:#FFF6D2;
+			}
+		.form .care .care_logo{
+			width:22px;
+			height:22px;
+			background-image:url(imgs/a2.png);
+			background-position:-100px -20px;
+			}
+		.form .care p{
+			font-size:12px;
+			margin-right:70px;
+			height:24px;
+			line-height:24px;
+			color:#333;
+			}
+			
+		.form .user{
+			display:inline-block;
+			width:100%;
+			height:35px;
+			margin-top:8px;
+			margin-bottom:10px;
+			position:relative;
+			}
+		.form .user .number{
+			margin-left:36px;
+			}
+		.form .user .user_logo{
+			width:35px;
+			height:35px;
+			background-image:url(imgs/a2.png);
+			border:1px solid #999;
+			margin-left:0px;
+			
+			}
+		.form .user .number .sbox1{
+			position:absolute;
+			width:293px;
+			height:35px;
+			margin-top:-37px;
+			border:1px solid #999;
+			font-size:14px;
+			}
+			
+			
+		.form .secret{
+			display:inline-block;
+			width:100%;
+			height:35px;
+			margin-top:8px;
+			margin-bottom:10px;
+			position:relative;
+			}
+		.form .secret .mima{
+			margin-left:36px;
+			}
+		.form .secret .secret_logo{
+			width:35px;
+			height:35px;
+			background-image:url(imgs/a2.png);
+			border:1px solid #999;
+			margin-left:0px;
+			background-position:-49px 0;
+			}
+		.form .secret .mima .sbox2{
+			position:absolute;
+			width:293px;
+			height:35px;
+			margin-top:-37px;
+			border:1px solid #999;
+			font-size:14px;
+			}
+			
+			
+			
+		.form .deng{
+			display:inline-block;
+			width:100%;
+			height:70px;
+			margin-top:15px;
+			margin-bottom:10px;
+			position:relative;
+			}
+		.form .deng .denglu{
+			font-size:12px;
+			}
+		.form .deng .denglu a{
+			float:right;
+			color:#333;
+			}
+		.form .deng .denglu a:hover{
+			text-decoration:underline;
+			color:red;
+			}
+		.form .deng .comein{
+			height:40px;
+			background-color:#E4393C;
+			border-color:#CB2A2D;
+			}
+		.form .deng .comein a{
+			display:block;
+			text-align:center;
+			height:40px;
+			line-height:40px;
+			font-size:22px;
+			color:#fff;
+			letter-spacing:30px;
+			}
+			
+			
+		.form .other{
+			display:inline-block;
+			width:100%;
+			height:35px;
+			margin-top:25px;
+			}
+		.form .other h5{
+			font-weight:500;
+			color:#666;
+			padding-bottom:10px;
+			}
+		.form .other ul{
+			width:100%;
+			height:20px;
+			}
+		.form .other ul li{
+			width:50px;
+			
+			text-align:center;
+			float:left;
+			font-size:12px;
+			background:url(imgs/cc.png) no-repeat right center;
+			}
+		.form .other ul li:hover{
+			text-decoration:underline;
+			color:red;
+			}
+		.form .other ul .inLi{
+			text-align:left;
+			width:70px;
+			}
+		.form .other ul .end{
+			border-right:0px;
+		}
+		.form .link{
+			width:60px;
+			height:60px;
+			background:url(imgs/a3.png) no-repeat;
+			background-position:-60px 0;
+			margin-left:290px;
+			margin-top:-30px;
+			}
+			
+			
+			
+		
+		.footer{
+			width:100%;
+			height:150px;
+			}
+		.footer_top{
+			width:100%;
+			height:50px;
+			}
+		.footer a{
+			text-decoration:none;
+			color:#666;
+			}
+		.footer a:hover{
+			text-decoration:underline;
+			color:red;
+			}
+		.footer .footer_top a{
+			float:right;
+			margin-right:200px;
+			font-size:14px;
+			
+			}
+		.footer img{
+			margin-top:20px;
+			}
+		.footer_bottom{
+			width:100%;
+			height:100px;
+			}
+		.footer ul{
+			padding-left:130px;
+			}
+		.footer ul li{
+			list-style:none;
+			float:left;
+			width:80px;
+			height:20px;
+			text-align:center;
+			line-height:20px;
+			font-size:12px;
+			background:url(imgs/cc.png) no-repeat right center;
+			}
+		.footer ul li.startLi{
+			margin-left:80px;
+			}
+		.footer ul li.endLi{
+			width:100px;
+			height:20px;
+			border-right:#FFF;
+			}
+		.footer p{
+			font-size:12px;
+			color:#666;
+			text-align:center;
+			}
+    </style>
+</head>
+
+<body>
+    <div class="header">
+       <a href="index.html"><img src="imgs/a4.png"/></a><p>欢迎登录</p>
+    </div>
+    
+    <div class="content">
+        <div class="box">
+            <div class="form">
+            
+                <div class="start">
+                    <p>京东会员</p>
+                    <a href="http://www.baidu.com">
+                        <div class="logo">
+                            <div class="logo_left"></div>立即注册
+                        </div>
+                    </a>
+                </div>
+            
+                <div class="care">
+                    <div class="care_logo"></div>
+                    <p>公共场所不建议自动登录，以防账号丢失</p>
+                </div>
+            
+                <div class="user">
+                    <div class="user_logo"></div>
+                    <form action="" method="post" class="number">
+                        <input type="text" name="use" placeholder="&nbsp;&nbsp;邮箱/用户名/已验证手机" class="sbox1"/>
+                    </form>
+                </div>
+            
+                <div class="secret">
+                    <div class="secret_logo"></div>
+                    <form action="" method="post" class="mima">
+                        <input type="password" name="pwd" placeholder="&nbsp;&nbsp;密码" class="sbox2"/>
+                    </form>
+                </div>
+                
+                <div class="deng">
+                    <form action="" method="post" class="denglu">
+                        <input type="checkbox" name="auto" checked/>自动登录
+                        <a href="http://www.baidu.com">忘记密码？</a>
+                    </form><br/>
+                    <div class="comein">
+                        <a href="http://www.baidu.com">登录</a>
+                    </div>
+                </div>
+            
+                <div class="other">
+                    <h5>使用合作网站账号登录京东：</h5>
+                    <ul>
+                        <li class="inLi">京东钱包</li>
+                        <li>QQ</li>
+                        <li class="end">微信</li>
+                    </ul>
+                </div>
+                <div class="link"></div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="footer_top">
+            <a href="http://www.baidu.com"><img src="imgs/a5.png"/>&nbsp;登录页面，调查问卷</a>
+        </div>
+        <div class="footer_bottom">
+            <ul>
+                <li class="startLi"><a href="http://www.baidu.com">关于我们</a></li>
+                <li><a href="http://www.baidu.com">联系我们</a></li>
+                <li><a href="http://www.baidu.com">人才招聘</a></li>
+                <li><a href="http://www.baidu.com">商家入驻</a></li>
+                <li><a href="http://www.baidu.com">广告服务</a></li>
+                <li><a href="http://www.baidu.com">手机京东</a></li>
+                <li><a href="http://www.baidu.com">友情链接</a></li>
+                <li><a href="http://www.baidu.com">销售联盟</a></li>
+                <li><a href="http://www.baidu.com">京东社区</a></li>
+                <li><a href="http://www.baidu.com">京东公益</a></li>
+                <li class="endLi"><a href="http://www.baidu.com">English Site</a></li>
+            </ul><br/><br/>
+            <p>Copyright&copy;2004-2016 京东JD.com版权所有</p>
+        </div>
+    </div>
+</body>
+</html>

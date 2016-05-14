@@ -1,0 +1,541 @@
+<!--<!doctype html>
+         <html>
+<head>
+<meta charset="utf-8">
+<title>图片旋转360.</title>
+<style>
+         div{position:relative;transform:rotate(340deg);transform-origin:0 0;}
+        .view img{position:absolute;left:200px;top:200px;transition:all 0.5s !important;}
+        .view:hover img{transform:rotate(360deg);transform-origin:0 0;height:300px;}
+</style>
+</head>
+
+  <body>
+      <div class="view">
+            <img src="img/aa.jpg"/>
+            <div></div>
+      </div>
+  
+  </body>
+</html>-->
+
+<!--<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8" />
+<title>transform-origin_CSS参考手册_web前端开发参考手册系列</title>
+<meta name="author" content="Joy Du(飘零雾雨), dooyoe@gmail.com, www.doyoe.com" />
+<style>
+.test{margin:0;padding:0;list-style:none;border:1px solid #000;}
+.test li{width:50px;height:50px;border:1px solid #000;background:#ddd;
+	-moz-transform-origin:0 0;-moz-transform:rotate(45deg);
+	-webkit-transform-origin:0 0;-webkit-transform:rotate(45deg);
+	-o-transform-origin:0 0;-o-transform:rotate(45deg);
+	-ms-transform-origin:0 0;-ms-transform:rotate(45deg);
+	transform-origin:0 0;transform:rotate(45deg);
+}
+</style>
+</head>
+<body>
+<ul class="test">
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+</ul>
+</body>
+</html>
+			-->
+            
+            
+            
+            
+   <!--         <!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8" />
+<title>2D transform_CSS参考手册_web前端开发参考手册系列</title>
+<meta name="author" content="Joy Du(飘零雾雨), dooyoe@gmail.com, www.doyoe.com" />
+<style>
+h1{clear:both;padding-top:10px;font-size:16px;font-family:Arial;}
+.test{zoom:1;width:700px;margin:0;padding:0;list-style:none;}
+.test li{float:left;margin:20px 30px 0 0;border:1px solid #000;}
+.test li p{width:300px;height:100px;margin:0;background:#ddd;}
+.test .matrix{-moz-transform:matrix(0,1,1,1,10px,10px);-webkit-transform:matrix(0,1,1,1,10,10);-o-transform:matrix(0,1,1,1,10,10);-ms-transform:matrix(0,1,1,1,10,10);transform:matrix(0,1,1,1,10,10);}
+.test .translate p{-moz-transform:translate(5%,10px);-webkit-transform:translate(10px,10px);-o-transform:translate(10px,10px);-ms-transform:translate(10px,10px);transform:translate(10px,10px);}
+.test .translate2 p{-moz-transform:translate(-10px,-10px);-webkit-transform:translate(-10px,-10px);-o-transform:translate(-10px,-10px);-ms-transform:translate(-10px,-10px);transform:translate(-10px,-10px);}
+.test .translateX p{-moz-transform:translateX(20px);-webkit-transform:translateX(20px);-o-transform:translateX(20px);-ms-transform:translateX(20px);transform:translateX(20px);}
+.test .translate3 p{-moz-transform:translate(20px);-webkit-transform:translate(20px);-o-transform:translate(20px);-ms-transform:translate(20px);transform:translate(20px);}
+.test .translateY p{-moz-transform:translateY(10px);-webkit-transform:translateY(10px);-o-transform:translateY(10px);-ms-transform:translateY(10px);transform:translateY(10px);}
+.test .translate4 p{-moz-transform:translate(0,10px);-webkit-transform:translate(0,10px);-o-transform:translate(0,10px);-ms-transform:translate(0,10px);transform:translate(0,10px);}
+.test .rotate{-moz-transform:rotate(-5deg);-webkit-transform:rotate(-5deg);-o-transform:rotate(-5deg);-ms-transform:rotate(-5deg);transform:rotate(-5deg);}
+.test .rotate2{-moz-transform:rotate(5deg);-webkit-transform:rotate(5deg);-o-transform:rotate(5deg);-ms-transform:rotate(5deg);transform:rotate(5deg);}
+.test .scale{-moz-transform:scale(.8);-webkit-transform:scale(.8);-o-transform:scale(.8);-ms-transform:scale(.8);transform:scale(.8);}
+.test .scale2{-moz-transform:scale(1.2);-webkit-transform:scale(1.2);-o-transform:scale(1.2);-ms-transform:scale(1.2);transform:scale(1.2);}
+.test .skew{-moz-transform:skew(-5deg);-webkit-transform:skew(-5deg);-o-transform:skew(-5deg);-ms-transform:skew(-5deg);transform:skew(-5deg);}
+.test .skew2{-moz-transform:skew(-5deg,-5deg);-webkit-transform:skew(-5deg,-5deg);-o-transform:skew(-5deg,-5deg);-ms-transform:skew(-5deg,-5deg);transform:skew(-5deg,-5deg);}
+</style>
+</head>
+<body>
+<h1>矩阵变换：matrix()</h1>
+<ul class="test">
+	<li class="matrix">
+		<p>transform:matrix(0,1,1,1,10,10)</p>
+	</li>
+</ul>
+<h1>平移：translate(), translateX(), translateY()</h1>
+<ul class="test">
+	<li class="translate">
+		<p>transform:translate(5%,10px)</p>
+	</li>
+	<li class="translate2">
+		<p>transform:translate(-10px,-10px)</p>
+	</li>
+	<li class="translateX">
+		<p>transform:translateX(20px)</p>
+	</li>
+	<li class="translate3">
+		<p>transform:translate(20px)</p>
+	</li>
+	<li class="translateY">
+		<p>transform:translateY(10px)</p>
+	</li>
+	<li class="translate4">
+		<p>transform:translate(0,10px)</p>
+	</li>
+</ul>
+<h1>旋转：rotate()</h1>
+<ul class="test">
+	<li class="rotate">
+		<p>transform:rotate(-15deg)</p>
+	</li>
+	<li class="rotate2">
+		<p>transform:rotate(15deg)</p>
+	</li>
+</ul>
+<h1>缩放：scale()</h1>
+<ul class="test">
+	<li class="scale">
+		<p>transform:scale(.8)</p>
+	</li>
+	<li class="scale2">
+		<p>transform:scale(1.2)</p>
+	</li>
+</ul>
+<h1>扭曲：skew()</h1>
+<ul class="test">
+	<li class="skew">
+		<p>transform:skew(-5deg)</p>
+	</li>
+	<li class="skew2">
+		<p>transform:skew(-5deg,-5deg)</p>
+	</li>
+</ul>
+</body>
+</html>
+			-->
+            
+            
+     <!--       <!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8" />
+<title>transition_CSS参考手册_web前端开发参考手册系列</title>
+<meta name="author" content="Joy Du(飘零雾雨), dooyoe@gmail.com, www.doyoe.com" />
+<style>
+h1{font-size:16px;}
+.test{overflow:hidden;width:100%;margin:0;padding:0;list-style:none;}
+.test li{float:left;width:100px;height:100px;margin:0 5px;border:1px solid #ddd;background-color:#eee;text-align:center;-moz-transition:background-color .5s ease-in;-webkit-transition:background-color .5s ease-in;-o-transition:background-color .5s ease-in;-ms-transition:background-color .5s ease-in;transition:background-color .5s ease-in;}
+.test li:nth-child(1):hover{background-color:#bbb;}
+.test li:nth-child(2):hover{background-color:#999;}
+.test li:nth-child(3):hover{background-color:#630;}
+.test li:nth-child(4):hover{background-color:#090;}
+.test li:nth-child(5):hover{background-color:#f00;}
+</style>
+</head>
+<body>
+<h1>请将鼠标移动到下面的矩形上：</h1>
+<ul class="test">
+	<li>背景色过渡</li>
+	<li>背景色过渡</li>
+	<li>背景色过渡</li>
+	<li>背景色过渡</li>
+	<li>背景色过渡</li>
+</ul>
+</body>
+</html>
+			-->
+            
+            
+            
+ <!--           <!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8" />
+<title>transition-timing-function_CSS参考手册_web前端开发参考手册系列</title>
+<meta name="author" content="Joy Du(飘零雾雨), dooyoe@gmail.com, www.doyoe.com" />
+<style>
+h1{font-size:16px;}
+.test{overflow:hidden;width:100%;margin:0;padding:0;list-style:none;}
+.test li{position:relative;left:8px;width:220px;height:100px;margin:1px 5px;padding:10px;border:1px solid #ddd;background-color:#eee;color:#000;
+	-moz-transition-property:left;
+	-moz-transition-duration:.5s;
+	-webkit-transition-property:left;
+	-webkit-transition-duration:.5s;
+	-o-transition-property:left;
+	-o-transition-duration:.5s;
+	-ms-transition-property:left;
+	-ms-transition-duration:.5s;
+	transition-property:left;
+	transition-duration:.5s;
+}
+.test li:nth-child(1){-moz-transition-timing-function:linear;-webkit-transition-timing-function:linear;-o-transition-timing-function:linear;-ms-transition-timing-function:linear;transition-timing-function:linear;}
+.test li:nth-child(2){-moz-transition-timing-function:ease;-webkit-transition-timing-function:ease;-o-transition-timing-function:ease;-ms-transition-timing-function:ease;transition-timing-function:ease;}
+.test li:nth-child(3){-moz-transition-timing-function:ease-in;-webkit-transition-timing-function:ease-in;-o-transition-timing-function:ease-in;-ms-transition-timing-function:ease-in;transition-timing-function:ease-in;}
+.test li:nth-child(4){-moz-transition-timing-function:ease-out;-webkit-transition-timing-function:ease-out;-o-transition-timing-function:ease-out;-ms-transition-timing-function:ease-out;transition-timing-function:ease-out;}
+.test li:nth-child(5){-moz-transition-timing-function:ease-in-out;-webkit-transition-timing-function:ease-in-out;-o-transition-timing-function:ease-in-out;-ms-transition-timing-function:ease-in-out;transition-timing-function:ease-in-out;}
+.test li:hover{left:100px;}
+</style>
+</head>
+<body>
+<h1>请将鼠标移动到下面的矩形上：</h1>
+<ul class="test">
+	<li>linear: 线性过渡</li>
+	<li>ease: 平滑过渡</li>
+	<li>ease-in: 由慢到快</li>
+	<li>ease-out: 由快到慢</li>
+	<li>ease-in-out: 由慢到快再到慢</li>
+</ul>
+</body>
+</html>-->
+
+
+<!--<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8" />
+<title>animation_CSS参考手册_web前端开发参考手册系列</title>
+<meta name="author" content="Joy Du(飘零雾雨), dooyoe@gmail.com, www.doyoe.com" />
+<style>
+div{position:absolute;top:50%;left:50%;overflow:hidden;width:300px;height:150px;margin:-75px 0 0 -150px;border:3px solid #eee;background:#e0e0e0;}
+span{opacity:0;display:block;height:50px;font:bold 14px/50px Georgia;}
+.a1{
+	-webkit-transform:translate(60px);
+	-webkit-animation:animations 2s ease-out;
+	-moz-transform:translate(55px);
+	-moz-animation:animations 2s ease-out;
+	-o-transform:translate(55px);
+	-o-animation:animations 2s ease-out;
+	-ms-transform:translate(55px);
+	-ms-animation:animations 2s ease-out;
+	transform:translate(55px);
+	animation:animations 2s ease-out;
+}
+@-webkit-keyframes animations{
+	0%{-webkit-transform:translate(0);opacity:0;}
+	50%{-webkit-transform:translate(30px);opacity:1;}
+	70%{-webkit-transform:translate(35px);opacity:1;}
+	100%{-webkit-transform:translate(60px);opacity:0;}
+}
+@-moz-keyframes animations{
+	0%{-moz-transform:translate(0);opacity:0;}
+	50%{-moz-transform:translate(30px);opacity:1;}
+	70%{-moz-transform:translate(35px);opacity:1;}
+	100%{-moz-transform:translate(60px);opacity:0;}
+}
+@-o-keyframes animations{
+	0%{-o-transform:translate(0);opacity:0;}
+	50%{-o-transform:translate(30px);opacity:1;}
+	70%{-o-transform:translate(35px);opacity:1;}
+	100%{-o-transform:translate(60px);opacity:0;}
+}
+@-ms-keyframes animations{
+	0%{-ms-transform:translate(0);opacity:0;}
+	50%{-ms-transform:translate(30px);opacity:1;}
+	70%{-ms-transform:translate(35px);opacity:1;}
+	100%{-ms-transform:translate(60px);opacity:0;}
+}
+@keyframes animations{
+	0%{transform:translate(0);opacity:0;}
+	50%{transform:translate(30px);opacity:1;}
+	70%{transform:translate(35px);opacity:1;}
+	100%{transform:translate(60px);opacity:0;}
+}
+.a3{
+	-webkit-transform:translate(100px);
+	-webkit-animation:animations3 2s ease-out 2s;
+	-moz-transform:translate(100px);
+	-moz-animation:animations3 2s ease-out 2s;
+	-o-transform:translate(100px);
+	-o-animation:animations3 2s ease-out 2s;
+	-ms-transform:translate(100px);
+	-ms-animation:animations3 2s ease-out 2s;
+	transform:translate(100px);
+	animation:animations3 2s ease-out 2s;
+}
+@-webkit-keyframes animations3{
+	0%{-webkit-transform:translate(160px);opacity:0;}
+	50%{-webkit-transform:translate(130px);opacity:1;}
+	70%{-webkit-transform:translate(125px);opacity:1;}
+	100%{-webkit-transform:translate(100px);opacity:0;}
+}
+@-moz-keyframes animations3{
+	0%{-moz-transform:translate(160px);opacity:0;}
+	50%{-moz-transform:translate(130px);opacity:1;}
+	70%{-moz-transform:translate(125px);opacity:1;}
+	100%{-moz-transform:translate(100px);opacity:0;}
+}
+@-o-keyframes animations3{
+	0%{-o-transform:translate(160px);opacity:0;}
+	50%{-o-transform:translate(130px);opacity:1;}
+	70%{-o-transform:translate(125px);opacity:1;}
+	100%{-o-transform:translate(100px);opacity:0;}
+}
+@-ms-keyframes animations3{
+	0%{-ms-transform:translate(160px);opacity:0;}
+	50%{-ms-transform:translate(130px);opacity:1;}
+	70%{-ms-transform:translate(125px);opacity:1;}
+	100%{-ms-transform:translate(100px);opacity:0;}
+}
+@keyframes animations3{
+	0%{transform:translate(160px);opacity:0;}
+	50%{transform:translate(130px);opacity:1;}
+	70%{transform:translate(125px);opacity:1;}
+	100%{transform:translate(100px);opacity:0;}
+}
+.a2{
+	text-align:center;font-size:26px;
+	-webkit-animation:animations2 5s ease-in-out 4s;
+	-moz-animation:animations2 5s ease-in-out 4s;
+	-o-animation:animations2 5s ease-in-out 4s;
+	-ms-animation:animations2 5s ease-in-out 4s;
+	animation:animations2 5s ease-in-out 4s;
+}
+@-webkit-keyframes animations2{
+	0%{opacity:0;}
+	40%{opacity:.8;}
+	45%{opacity:.3;}
+	50%{opacity:.8;}
+	55%{opacity:.3;}
+	60%{opacity:.8;}
+	100%{opacity:0;}
+}
+@-moz-keyframes animations2{
+	0%{opacity:0;}
+	40%{opacity:.8;}
+	45%{opacity:.3;}
+	50%{opacity:.8;}
+	55%{opacity:.3;}
+	60%{opacity:.8;}
+	100%{opacity:0;}
+}
+@-o-keyframes animations2{
+	0%{opacity:0;}
+	40%{opacity:.8;}
+	45%{opacity:.3;}
+	50%{opacity:.8;}
+	55%{opacity:.3;}
+	60%{opacity:.8;}
+	100%{opacity:0;}
+}
+@-ms-keyframes animations2{
+	0%{opacity:0;}
+	40%{opacity:.8;}
+	45%{opacity:.3;}
+	50%{opacity:.8;}
+	55%{opacity:.3;}
+	60%{opacity:.8;}
+	100%{opacity:0;}
+}
+@keyframes animations2{
+	0%{opacity:0;}
+	40%{opacity:.8;}
+	45%{opacity:.3;}
+	50%{opacity:.8;}
+	55%{opacity:.3;}
+	60%{opacity:.8;}
+	100%{opacity:0;}
+}
+</style>
+</head>
+<body>
+<div>
+	<span class="a1">CSS3 Animations</span>
+	<span class="a2">CSS3 Animations</span>
+	<span class="a3">CSS3 Animations</span>
+</div>
+</body>
+</html>
+			-->
+			
+            
+ <!--           <!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8" />
+<title>animation-iteration-count_CSS参考手册_web前端开发参考手册系列</title>
+<meta name="author" content="Joy Du(飘零雾雨), dooyoe@gmail.com, www.doyoe.com" />
+<style>
+h1{font-size:16px;}
+div{width:100px;height:100px;padding:10px;border-radius:61px;box-shadow:0 0 10px rgba(204,102,0,.8);background:#F6D66E;background:-moz-linear-gradient(top,#fff,#F6D66E);background:-webkit-linear-gradient(top,#fff,#F6D66E);background:-o-linear-gradient(top,#fff,#F6D66E);background:-ms-linear-gradient(top,#fff,#F6D66E);background:linear-gradient(top,#fff,#F6D66E);
+	-moz-animation:animations 1.5s ease infinite;
+	-webkit-animation:animations 1.5s ease infinite;
+	-o-animation:animations 1.5s ease infinite;
+	-ms-animation:animations 1.5s ease infinite;
+	animation:animations 1.5s ease infinite;
+}
+@-webkit-keyframes animations{
+	0%{box-shadow:0 0 10px rgba(204,102,0,.8);}
+	50%{box-shadow:0 0 10px rgba(204,102,0,.3);}
+	100%{box-shadow:0 0 10px rgba(204,102,0,.8);}
+}
+@-moz-keyframes animations{
+	0%{box-shadow:0 0 10px rgba(204,102,0,.8);}
+	50%{box-shadow:0 0 10px rgba(204,102,0,.3);}
+	100%{box-shadow:0 0 10px rgba(204,102,0,.8);}
+}
+@-o-keyframes animations{
+	0%{box-shadow:0 0 10px rgba(204,102,0,.8);}
+	50%{box-shadow:0 0 10px rgba(204,102,0,.3);}
+	100%{box-shadow:0 0 10px rgba(204,102,0,.8);}
+}
+@-ms-keyframes animations{
+	0%{box-shadow:0 0 10px rgba(204,102,0,.8);}
+	50%{box-shadow:0 0 10px rgba(204,102,0,.3);}
+	100%{box-shadow:0 0 10px rgba(204,102,0,.8);}
+}
+@keyframes animations{
+	0%{box-shadow:0 0 10px rgba(204,102,0,.8);}
+	50%{box-shadow:0 0 10px rgba(204,102,0,.3);}
+	100%{box-shadow:0 0 10px rgba(204,102,0,.8);}
+}
+</style>
+</head>
+<body>
+<h1>太阳光晕将不停的闪烁：</h1>
+<div></div>
+</body>
+</html>
+			-->
+            
+            
+          <!--  <!doctype html>
+                  <html>
+                        <head>
+                              <meta charset="utf-8"/>
+                              <title></title>
+                              <style>
+                                     div{position:relative;border:2px solid red;}
+									 div:hover{transition:all 0.5s ease;transform:rotate(40deg);height:200px;width:0px;}
+                              </style>
+                        </head>
+                        <body>
+                              <div></div>
+                        </body>
+                  </html>-->
+                  
+                  
+                  <!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8" />
+<title>animation-play-state_CSS参考手册_web前端开发参考手册系列</title>
+<meta name="author" content="Joy Du(飘零雾雨), dooyoe@gmail.com, www.doyoe.com" />
+<style>
+h1{font-size:16px;}
+p{overflow:hidden;height:1px;margin:302px 0 0;background:#ddd;}
+div{width:100px;height:100px;padding:10px;border-radius:61px;box-shadow:0 0 10px rgba(204,102,0,.8);background:#F6D66E;background:-moz-linear-gradient(top,#fff,#F6D66E);background:-webkit-linear-gradient(top,#fff,#F6D66E);background:-o-linear-gradient(top,#fff,#F6D66E);background:-ms-linear-gradient(top,#fff,#F6D66E);background:linear-gradient(top,#fff,#F6D66E);
+	-moz-transform:translate(280px,300px);
+	-webkit-transform:translate(280px,300px);
+	-o-transform:translate(280px,300px);
+	-ms-transform:translate(280px,300px);
+	transform:translate(280px,300px);
+	-moz-animation:animations 6s linear;
+	-webkit-animation:animations 6s linear;
+	-o-animation:animations 1.5s linear
+	-ms-animation:animations 1.5s linear;
+	animation:animations 1.5s linear;
+}
+div:hover{
+	-moz-animation-play-state:paused;
+	-webkit-animation-play-state:paused;
+	-o-animation-play-state:paused;
+	-ms-animation-play-state:paused;
+	animation-play-state:paused;
+}
+@-webkit-keyframes animations{
+	0%{-webkit-transform:translate(0,0);}
+	10%{-webkit-transform:translate(0,300px);}
+	20%{-webkit-transform:translate(60px,60px);}
+	30%{-webkit-transform:translate(60px,300px);}
+	40%{-webkit-transform:translate(120px,120px);}
+	50%{-webkit-transform:translate(120px,300px);}
+	60%{-webkit-transform:translate(180px,180px);}
+	70%{-webkit-transform:translate(180px,300px);}
+	80%{-webkit-transform:translate(240px,240px);}
+	90%{-webkit-transform:translate(240px,300px);}
+	100%{-webkit-transform:translate(280px,300px);}
+}
+@-moz-keyframes animations{
+	0%{-moz-transform:translate(0,0);}
+	10%{-moz-transform:translate(0,300px);}
+	20%{-moz-transform:translate(60px,60px);}
+	30%{-moz-transform:translate(60px,300px);}
+	40%{-moz-transform:translate(120px,120px);}
+	50%{-moz-transform:translate(120px,300px);}
+	60%{-moz-transform:translate(180px,180px);}
+	70%{-moz-transform:translate(180px,300px);}
+	80%{-moz-transform:translate(240px,240px);}
+	90%{-moz-transform:translate(240px,300px);}
+	100%{-moz-transform:translate(280px,300px);}
+}
+@-o-keyframes animations{
+	0%{-o-transform:translate(0,0);}
+	10%{-o-transform:translate(0,300px);}
+	20%{-o-transform:translate(60px,60px);}
+	30%{-o-transform:translate(60px,300px);}
+	40%{-o-transform:translate(120px,120px);}
+	50%{-o-transform:translate(120px,300px);}
+	60%{-o-transform:translate(180px,180px);}
+	70%{-o-transform:translate(180px,300px);}
+	80%{-o-transform:translate(240px,240px);}
+	90%{-o-transform:translate(240px,300px);}
+	100%{-o-transform:translate(280px,300px);}
+}
+@-ms-keyframes animations{
+	0%{-ms-transform:translate(0,0);}
+	10%{-ms-transform:translate(0,300px);}
+	20%{-ms-transform:translate(60px,60px);}
+	30%{-ms-transform:translate(60px,300px);}
+	40%{-ms-transform:translate(120px,120px);}
+	50%{-ms-transform:translate(120px,300px);}
+	60%{-ms-transform:translate(180px,180px);}
+	70%{-ms-transform:translate(180px,300px);}
+	80%{-ms-transform:translate(240px,240px);}
+	90%{-ms-transform:translate(240px,300px);}
+	100%{-ms-transform:translate(280px,300px);}
+}
+@keyframes animations{
+	0%{transform:translate(0,0);}
+	10%{transform:translate(0,300px);}
+	20%{transform:translate(60px,60px);}
+	30%{transform:translate(60px,300px);}
+	40%{transform:translate(120px,120px);}
+	50%{transform:translate(120px,300px);}
+	60%{transform:translate(180px,180px);}
+	70%{transform:translate(180px,300px);}
+	80%{transform:translate(240px,240px);}
+	90%{transform:translate(240px,300px);}
+	100%{transform:translate(280px,300px);}
+}
+</style>
+</head>
+<body>
+<h1>鼠标经过时太阳运动将暂停，移开继续：</h1>
+<div></div>
+<p></p>
+</body>
+</html>
+			

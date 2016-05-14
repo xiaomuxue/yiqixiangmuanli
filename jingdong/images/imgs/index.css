@@ -1,0 +1,524 @@
+#shortcut-2013 .myjd,#shortcut-2013 .mycart {
+	padding:0 11px 0 30px;
+	background-image:url("i/s-icon.png");
+	background-position:10px 9px;
+	background-color:#f7f7f7;
+	background-repeat:no-repeat
+}
+#shortcut-2013 .fore3 {
+	background-position:10px -18px
+}
+#nav-2013 {
+	padding-left:0
+}
+#nav-2013 .w {
+	position:relative
+}
+#header-2013 .ld {
+	z-index:10
+}
+#logo-2013 a:link b,#logo-2013 a:visited b {
+	background:url("i/app-logo.jpg") no-repeat scroll 0 0 #fff;
+	height:38px;
+	left:168px;
+	width:110px
+}
+#nav-2013 {
+	margin-bottom:0
+}
+.app-container {
+	background:url("i/bg.png") repeat;
+	margin-top:-138px;
+	padding:60px 0
+}
+.app-container .m1 {
+	padding-bottom:80px
+}
+#client {
+	width:990px;
+	margin:0 auto;
+	overflow:hidden
+}
+#client ul {
+	width:1100px
+}
+#client li {
+	text-align:center;
+	width:193px;
+	height:300px;
+	float:left
+}
+#client li .c-img {
+	height:186px;
+	width:186px;
+	margin:0 auto;
+	display:block;
+	overflow:hidden
+}
+#client li .c-name {
+	width:160px;
+	margin:6px auto;
+	color:#666;
+	font:bold 16px "Microsoft Yahei"
+}
+#client li .c-detail {
+	color:#979797;
+	width:160px;
+	margin:0 auto;
+	font-family:"Microsoft Yahei"
+}
+.sub-nav {
+	background-color:rgba(243,243,243,0.6);
+	background-color:transparent\9;
+	filter:progid:DXImageTransform.Microsoft.Gradient(GradientType = 1,startColorstr = '#99f3f3f3',endColorstr = '#99f3f3f3');
+	zoom:1;
+	height:60px
+}
+.nav-wrap {
+	position:absolute;
+	top:556px;
+	height:90px;
+	width:100%;
+	z-index:10
+}
+.nav-wrap .fixed-line {
+	height:30px;
+	background-color:rgba(243,243,243,0.6);
+	background-color:transparent\9;
+	filter:progid:DXImageTransform.Microsoft.Gradient(GradientType = 1,startColorstr = '#99f3f3f3',endColorstr = '#99f3f3f3');
+	zoom:1;
+	width:100%
+}
+.nav-wrap .fixed-line a {
+	text-align:center;
+	margin-top:4px
+}
+.nav-wrap .fixed-line .curr {
+	color:#ff3b30
+}
+.nav-wrap a {
+	color:#666;
+	font:14px "Microsoft Yahei";
+	display:block;
+	float:left
+}
+.nav-wrap a b {
+	width:48px;
+	height:48px;
+	display:block;
+	background:url(i/nav-icon.png) no-repeat;
+	margin:10px auto 0
+}
+.nav-wrap a .b1 {
+	background-position:0 0
+}
+.nav-wrap a .b2 {
+	background-position:-48px 0
+}
+.nav-wrap a .b3 {
+	background-position:-96px 0
+}
+.nav-wrap a .b4 {
+	background-position:-144px 0
+}
+.nav-wrap a .b5 {
+	background-position:-192px 0
+}
+.nav-wrap a .b6 {
+	background-position:-240px 0
+}
+.nav-wrap a .b7 {
+	background-position:-288px 0
+}
+.nav-wrap .curr .b1 {
+	background-position:0 -48px
+}
+.nav-wrap .curr .b2 {
+	background-position:-48px -48px
+}
+.nav-wrap .curr .b3 {
+	background-position:-96px -48px
+}
+.nav-wrap .curr .b4 {
+	background-position:-144px -48px
+}
+.nav-wrap .curr .b5 {
+	background-position:-192px -48px
+}
+.nav-wrap .curr .b6 {
+	background-position:-240px -48px
+}
+.nav-wrap .curr .b7 {
+	background-position:-288px -48px
+}
+.nav-wrap .fore1 {
+	width:100px
+}
+.nav-wrap .fore2 {
+	width:140px
+}
+.nav-wrap .fore3 {
+	width:110px
+}
+.nav-wrap .fore4 {
+	width:160px
+}
+.nav-wrap .fore5 {
+	width:160px
+}
+.nav-wrap .fore6 {
+	width:140px
+}
+.nav-wrap .fore7 {
+	width:160px
+}
+.nav-wrap .nav-fixed {
+	position:fixed;
+	top:0;
+	background-color:rgba(222,222,222,0.6);
+	background-color:transparent\9;
+	filter:progid:DXImageTransform.Microsoft.Gradient(GradientType = 1,startColorstr = '#99dedede',endColorstr = '#99dedede');
+	zoom:1
+}
+#sidepanel a,#sidepanel b {
+	background-image:none;
+	background-repeat:no-repeat;
+	margin:0;
+	padding:0;
+	height:30px
+}
+#sidepanel span {
+	background-image:url(i/back-top.png);
+	position:absolute;
+	left:0;
+	display:inline-block;
+	width:30px;
+	height:29px;
+	background-color:#e5e5e5;
+	border-bottom:1px solid #d0d0d0;
+	line-height:9999px;
+	overflow:hidden;
+	background-repeat:no-repeat
+}
+#sidepanel .sidebar-top span {
+	background-position:7px -23px
+}
+#sidepanel .sidebar-down span {
+	background-position:7px 7px
+}
+.google-play {
+	background:url(http://app.jd.com/skin/i/google.png) no-repeat;
+	width:204px;
+	height:62px;
+	display:inline-block;
+	line-height:9999px;
+	overflow:hidden
+}
+.app-store {
+	background:url(http://app.jd.com/skin/i/app-store.png) no-repeat;
+	width:204px;
+	height:62px;
+	display:inline-block;
+	line-height:9999px;
+	overflow:hidden
+}
+.micro {
+	background:url(i/micro.png) no-repeat;
+	width:204px;
+	height:62px;
+	display:inline-block;
+	line-height:9999px;
+	overflow:hidden
+}
+.m-btn {
+	background:url(i/m-btn.png) no-repeat;
+	width:204px;
+	height:62px;
+	display:inline-block;
+	line-height:9999px;
+	overflow:hidden
+}
+.main-foot {
+	color:#666;
+	text-align:center
+}
+.main-foot a {
+	margin-bottom:20px
+}
+.main-foot h3 {
+	margin-top:50px;
+	font:bold 20px "Microsoft Yahei"
+}
+.main-foot p {
+	margin:20px 0;
+	font:14px/24px "Microsoft Yahei"
+}
+.banner {
+	height:583px;
+	position:relative;
+	top:-138px
+}
+.banner img {
+	position:absolute;
+	top:98px;
+	left:0
+}
+.banner .w {
+	position:relative
+}
+.banner .bgicon {
+	_background-image:none;
+	top:2px
+}
+.banner-apad {
+	background:url(../uploads/app011.jpg) no-repeat bottom center
+}
+.banner-apad .bgicon {
+	background-image:url(../uploads/app0011.png)
+}
+.banner-music {
+	background:url(../uploads/app015.jpg) no-repeat bottom center
+}
+.banner-music .bgicon {
+	background-image:url(../uploads/app0015.png)
+}
+.banner-daojia {
+	background:url(../uploads/daojia_01.jpg) no-repeat bottom center
+}
+.banner-daojia .bgicon {
+	background-image:url(../uploads/daojia_phone.png)
+}
+
+.banner-car {
+	background:url(../uploads/app041.jpg) no-repeat bottom center
+}
+.banner-car .bgicon {
+	background-image:url(../uploads/app0041.png)
+}
+
+.banner-mutao {
+	background:url(../uploads/app020.jpg) no-repeat bottom center
+}
+.banner-mutao .bgicon {
+	background-image:url(../uploads/app0020.png)
+}
+
+.banner-game {
+background: url(http://img10.360buyimg.com/cms/g16/M00/0B/1D/rBEbRVODGQkIAAAAAACUcUOCKDcAACUaQPNYBIAAJSJ982.jpg) no-repeat bottom center;
+}
+.banner-game .bgicon {
+	background-image:url(http://img13.360buyimg.com/cms/g16/M00/0B/1D/rBEbRlODGRAIAAAAAAHJz98ltSwAACUaQPeD2oAAcnn181.png)
+}
+.banner-jbox {
+	background:url(../uploads/app05.jpg) no-repeat bottom center
+}
+.banner-jbox .bgicon {
+	background-image:url(../uploads/app005.png)
+}
+.banner-win8 {
+	background:url(../uploads/app06.jpg) no-repeat bottom center
+}
+.banner-win8 .bgicon {
+	background-image:url(../uploads/app006.png)
+}
+.banner-aphone {
+	background:url(../uploads/app02.jpg) no-repeat bottom center
+}
+.banner-aphone .bgicon {
+	background-image:url(../uploads/app002.png)
+}
+.banner-iphone {
+	background:url(../uploads/app03.jpg) no-repeat bottom center
+}
+.banner-iphone .bgicon {
+	background-image:url(../uploads/app003.png)
+}
+.banner-tuan {
+	background:url(../uploads/app04.jpg) no-repeat bottom center
+}
+.banner-tuan .bgicon {
+	background-image:url(../uploads/app0040.png)
+}
+.banner-gou {
+	background:url(../uploads/app07.jpg) no-repeat bottom center
+}
+.banner-gou .bgicon {
+	background-image:url(../uploads/app007.png)
+}
+.banner-m {
+	background:url(../uploads/app012.jpg) no-repeat bottom center
+}
+.banner-m .bgicon {
+	background-image:url(../uploads/app0012.png)
+}
+.banner-read {
+	background:url(../uploads/app013.jpg) no-repeat bottom center
+}
+.banner-read .bgicon {
+	background-image:url(../uploads/app0013.png)
+}
+.banner-appl {
+	background:url(../uploads/app014.jpg) no-repeat bottom center
+}
+.banner-appl .bgicon {
+	background-image:url(../uploads/app0014.png)
+}
+.banner-antv {
+	background:url(../uploads/app010.jpg) no-repeat bottom center
+}
+.banner-antv .bgicon {
+	background-image:url(../uploads/app0010.png)
+}
+.banner-ipad {
+	background:url(../uploads/app09.jpg) no-repeat bottom center
+}
+.banner-ipad .bgicon {
+	background-image:url(../uploads/app009.png)
+}
+.banner-wph {
+	background:url(../uploads/app08.jpg) no-repeat bottom center
+}
+.banner-wph .bgicon {
+	background-image:url(../uploads/app008.png)
+}
+.banner-aphone2 {
+	background:url(../uploads/app00.jpg) no-repeat bottom center
+}
+.banner-aphone2 .bgicon {
+	background-image:url(../uploads/app000.png)
+}
+/*闪购*/
+.banner-sg {
+	background:url(../uploads/app019.jpg) no-repeat bottom center
+}
+.banner-sg .bgicon {
+	background-image:url(../uploads/app0019.png)
+}
+/*母婴*/
+.banner-baby {
+	background:url(../uploads/app017.jpg) no-repeat bottom center
+}
+.banner-baby .bgicon {
+	background-image:url(../uploads/app0017.png)
+}
+
+.list-1 {
+	padding:0 150px
+}
+.list-1 li {
+	width:50%;
+	float:left
+}
+.list-1 li p {
+	margin-bottom:3px
+}
+.list-2 li {
+	width:33%;
+	float:left
+}
+.list-2 li p {
+	margin-bottom:3px
+}
+.slide {
+	position:relative;
+	background:url(http://misc.360buyimg.com/lib/skin/e/i/loading.gif) no-repeat center center;
+	top:-138px
+}
+.slide .slide-itemswrap {
+	position:relative
+}
+.slide .slide-items {
+	position:absolute
+}
+.slide-controls {
+	text-align:center;
+	z-index:2;
+	position:relative;
+	margin-top:-22px
+}
+.slide-controls span {
+	display:inline-block;
+	margin:0 5px;
+	cursor:default;
+	border-radius:8px;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	height:8px;
+	width:8px;
+	font-size:0;
+	line-height:0;
+	overflow:hidden;
+	background-color:#fff;
+	vertical-align:middle
+}
+.slide-controls .curr {
+	background-color:transparent;
+	border:2px solid #fff
+}
+*html .slide-controls span {
+	margin:0 10px 0 0
+}
+#slide .slide-itemswrap,.slide-items,.slide {
+	height:583px;
+	width:100%
+}
+#slide .slide-items li {
+	padding-top:98px
+}
+#slide .slide-items .style1 {
+	float:left;
+	width:100%
+}
+#slide .style1 .fore2,#slide .style1 .fore3,#slide .style1 .fore4 {
+	margin-left:1px
+}
+.style1 a {
+	position:relative;
+	width:990px;
+	margin:0 auto;
+	display:block
+}
+.style1 a img {
+	position:absolute;
+	top:0
+}
+.style1 .fore1 {
+	height:485px
+}
+.bgicon {
+	position:absolute;
+	top:-96px;
+	left:717px;
+	height:581px;
+	width:314px;
+	z-index:7;
+	background-position:0 bottom;
+	background-repeat:no-repeat
+}
+#navitems-2013 {
+	top:-40px;
+	position:relative;
+	z-index:6;
+	width:830px
+}
+#nav-2013 {
+	position:static;
+	overflow:hidden
+}
+#navitems-2013 li {
+	width:auto
+}
+#navitems-2013 li a {
+	position:static;
+	display:block;
+	_display:inline-block;
+	width:auto;
+	padding-left:10px;
+	padding-right:10px
+}
+.banner-superapp {
+	background:url(../uploads/bg_app_banner.png) no-repeat bottom center
+}/* new add*/
+.banner-superapp .bgicon {
+	background-image:url(../uploads/phone.png)
+}/* new add*/
